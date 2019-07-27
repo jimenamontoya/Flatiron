@@ -1,0 +1,49 @@
+/* Comentario: Aqui vamos a escribir CSS */
+
+/* para elementos*...LAST PRIORITIZED*/
+body{ /*para todo el body*/
+  font-family: calibri;
+  background: #dfdfdf
+}
+
+h1 {
+    color:#127AE8
+  }
+
+h2 {
+    font-size: 25px;
+      color:#0F539C;
+      /*text-decoration: underline*/
+  }
+
+/* para class, usar el punto .* ...SECOND MOST PRIORITIZED*/
+.tipo2 {
+  color:green;
+    text-decoration: underline
+}
+
+/* para id, usar el hashtag #...MOST PRIORITIZED*/
+#nombreunico {
+  color:red
+}
+
+/* para elementos
+p {
+    color:#0F539C;
+      font-size: 25px
+  }*/
+/* para elementos/ solo si quieres que todos los img tengan el mismo formato*/
+img{
+  height: 400px;
+    width:750px;
+  display:block /* para que no esten todos los elementos en una linea*/
+}
+
+.boton{
+  font-size: 25px;
+  color: white;
+  height: 100px;
+  width: 200px;
+  
+  adient(top, #2079b0, #eb94d0);  background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);  background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);  background-image: -o-linear-gradient(top, #2079b0, #eb94d0);  background-image: linear-gradient(to bottom, #2079b0, #eb94d0)
+}
